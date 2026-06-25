@@ -1,0 +1,25 @@
+# ==============================================================================
+# CONFIGURAÇÕES DE IGNORE PARA PYTHON E JUPYTER NOTEBOOKS
+# ==============================================================================
+
+# Arquivos temporários e cache do Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Pastas locais e checkpoints do Jupyter/Google Colab
+.ipynb_checkpoints/
+.virtualenv/
+.env
+.venv/
+env/
+venv/
+
+# Arquivos temporários do Sistema Operacional (Windows e macOS)
+.DS_Store
+.DS_Store?
+._*
+Thumbs.db
+ehthumbs.db
+Desktop.ini
